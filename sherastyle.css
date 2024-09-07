@@ -1,0 +1,70 @@
+/* Estilos Generales */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ADD8E6; 
+    color: #ffffff; 
+    margin: 1;
+    padding: 1;
+}
+
+h1.title {
+    color: #ff69b4; /* Color inspirado en los tonos de She-Ra */
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+
+p.subtitle {
+    text-align: center;
+    color: #ff8000; /* Inspirado en los tonos dorados del emblema de She-Ra */
+    font-size: 1.2em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about {
+    background-color: #4b0082; /* Inspirado en los tonos místicos de la serie */
+}
+
+#characters {
+    background-color: #800080; /* Un púrpura que representa el poder de las Princesas */
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de lista predeterminados */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px; /* Espacio entre elementos de la lista */
+    color: #ffffff; /* Color del texto de los personajes */
+}
+
+img.character-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px; /* Ajusta el tamaño máximo según lo necesites */
+    border-radius: 10px; /* Bordes redondeados si lo prefieres */
+}
+
+.centered-image {
+    display: block; /* Asegura que se comporte como un bloque para poder centrarlo */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    width: 50%; /* Ajusta el tamaño según lo que necesites */
+    max-width: 600px; /* Establece un ancho máximo para que no sea demasiado grande */
+    border-radius: 10px; /* Si quieres que las esquinas sean redondeadas */
+}
+
+footer {
+    background-color: #333;
+    color: #ff69b4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
